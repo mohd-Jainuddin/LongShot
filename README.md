@@ -2,7 +2,7 @@
 
 
 <h1>Screenshot of this project and code</h1>
-<img src="./img/Screenshot (225).png" alt="img"> 
+<img src="./src/img/Screenshot (225).png" alt="img"> 
 <img src="./img/Screenshot (226).png" alt="img"> 
 <img src="./img/Screenshot (227).png" alt="img"> 
 <img src="./img/Screenshot (228).png" alt="img"> 
