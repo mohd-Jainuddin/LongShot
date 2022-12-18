@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.first_div{
+    padding: 15px;
+    background-color: lightgray;
+}
+
+.para{
+    font-size: 12px;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+}
+
+.big_box{
+    width: 47%;
+    height: 317px;
+    border: 1px solid black;
+    box-shadow: lightgray 2px 2px 2px 1.5px;
+}
+
+.three_box{
+    width: 47%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box{
+    width: 100%;
+    padding: 20px;
+    border: 1px solid black;
+    box-shadow: lightgray 2px 2px 2px 1.5px;
+    margin-bottom: 10px;
+}
+
+button{
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+}
+
+.box3{
+    display: flex;
+    gap: 80px;
+}
+
+.top{
+    width: 100%;
+    background-color: grey;
+    padding: 0;
+}

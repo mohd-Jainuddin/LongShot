@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    display: flex;
+}
+
+aside{
+    width: 15%;
+    height: 100vh;
+    border-right: 1px solid lightgray;
+}
+
+section{
+    width: 85%;
+    height: 100vh;
+    background-color: aliceblue;
+}
+
+.name{
+    width: 100%;
+    padding: 15px;
+    background-color: lightgray;
+}
+
+ul li{
+    list-style: none;
+    padding: 5px;
+    margin: 20px 2px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+ul li:hover{
+    border: 1px solid #006DCA;
+}
+
+.dash{
+    background-color: #006DCA;
+    color: white;
+}
+
+span{
+    padding: 20px;
+}
+
+.subling1,.subling2{
+    display: none;
+}
+
+.templates:hover .subling1 {
+    display: block;
+    cursor: pointer;
+    padding-left: 15px;
+}
+
+.integration:hover .subling2{
+    display: block;
+    cursor: pointer;
+    padding-left: 15px;
+}
+
+/* Main body part start */
+
+.headpart{
+    width: 100%;
+    padding: 10px 50px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid grey;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+}
+
+.big_box{
+    width: 47%;
+    height: 260px;
+    padding: 10px;
+    border: 0.1px solid lightgrey;
+    background-color: white;
+}
+
+.three_box{
+    width: 47%;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box{
+    width: 100%;
+    padding: 16px;
+    border: 0.1px solid lightgrey;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.com_btn{
+    background-color: #FCE081;
+    color: #A75800;
+}
+
+button{
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+}
+
+.box3{
+    display: flex;
+    gap: 80px;
+}
+
+.valume{
+    padding: 30px;
+    border-bottom: 2px solid gray;
+}
+
+.keyword{
+    padding: 10px;
+}
+
+.btns{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.btn{
+    padding: 8px;
+    border: 1px solid lightgray;
+    background-color: gray;
+    cursor: pointer;
+    color: white;
+}
+
+.add{
+    padding: 8px;
+    background-color: blue;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.btnBroad{
+    background-color: #006DCA;
+}
+
+/* Table part start from here */
+
+.table-box{
+    width: 70%;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+table{
+    width: 100%;
+    background-color: white;
+    border: 1px solid gray;
+}
+
+.tdc{
+    background-color: #FCE081;
+    color: #A75800;
+
+}
+
+.tdi{
+    background-color: #C4E5FE;
+    color: #006DCA;
+}
+
+thead{
+    background-color: lightgray;
+}
+
+ table,th,td{
+    padding: 5px;
+    border-bottom: 1px solid grey;
+}
+
+/* Add to List Btn */
+
+.pop{
+    position: absolute;
+    left: 40%;
+    width: 30%;
+    margin: 0 auto;
+    justify-content: center;
+    border: 1px solid grey;
+    z-index: 1;
+    background-color: black;
+    color: red;
+}
+
+/* Edit outlines */
+.hide{
+    display: none;
+}
+
+.cross{
+    padding: 10px;
+    font-size: 20px;
+    color: red;
+    cursor: pointer;
+}
+
+.first{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.p{
+    padding: 5px;
+    font-size: 20px;
+}
+
+.smallbox{
+    width: 100%;
+    padding: 20px;
+    border: 1px solid grey;
+    background-color: lightcyan;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+.addBtn{
+    width: 100%;
+    border-radius: 0;
+    background-color: blue;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+}
